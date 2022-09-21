@@ -23,7 +23,7 @@ export const Statistics = ({ title, stats }) => {
   );
 };
 
-Statistics.prototype = {
+Statistics.prototypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
